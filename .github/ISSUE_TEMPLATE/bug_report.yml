@@ -1,0 +1,29 @@
+name: Bug report
+description: Report a reproducible problem in Dayflow
+title: "bug: "
+labels: [bug]
+body:
+  - type: textarea
+    attributes:
+      label: What happened?
+      description: Describe the problem and what you expected to happen.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Steps to reproduce
+      description: Give the smallest reliable reproduction sequence.
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Dayflow version
+      placeholder: 0.4.0
+  - type: input
+    attributes:
+      label: Ubuntu version
+      placeholder: 24.04
+  - type: textarea
+    attributes:
+      label: Logs or screenshots
+      description: Paste relevant logs or attach screenshots.
